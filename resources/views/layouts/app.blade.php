@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="utf-8">
@@ -7,26 +7,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>E-SHOP HTML Template</title>
+	<title>Droid Technology</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="{{ asset('css/template-css/bootstrap.min.css') }}" />
 
 	<!-- Slick -->
-	<link type="text/css" rel="stylesheet" href="css/slick.css" />
-	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+	<link type="text/css" rel="stylesheet" href="{{ asset('css/template-css/slick.css') }}" />
+	<link type="text/css" rel="stylesheet" href="{{ asset('css/template-css/slick-theme.css') }}" />
 
 	<!-- nouislider -->
-	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+	<link type="text/css" rel="stylesheet" href="{{ asset('css/template-css/nouislider.min.css') }}" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ asset('css/template-css/font-awesome.min.css') }}">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="{{ asset('css/template-css/style.css') }}" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +44,7 @@
 		<div id="top-header">
 			<div class="container">
 				<div class="pull-left">
-					<span>Welcome to E-shop!</span>
+					<span>Bienvenido a Droid!</span>
 				</div>
 				<div class="pull-right">
 					<ul class="header-top-links">
@@ -80,7 +80,7 @@
 					<!-- Logo -->
 					<div class="header-logo">
 						<a class="logo" href="#">
-							<img src="./img/logo.png" alt="">
+							<img src="{{ asset('img/logo_droid.PNG') }}" alt="logo_droid" width="20">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -1504,12 +1504,12 @@
 	<!-- /FOOTER -->
 
 	<!-- jQuery Plugins -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/nouislider.min.js"></script>
-	<script src="js/jquery.zoom.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="{{ asset('js/template-js/jquery.min.js') }}"></script>
+	<script src="{{ asset('js/template-js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/template-js/slick.min.js') }}"></script>
+	<script src="{{ asset('js/template-js/nouislider.min.js') }}"></script>
+	<script src="{{ asset('js/template-js/jquery.zoom.min.js') }}"></script>
+	<script src="{{ asset('js/template-js/main.js') }}"></script>
 
 </body>
 
